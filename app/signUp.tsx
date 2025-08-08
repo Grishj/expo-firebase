@@ -52,16 +52,6 @@ const SignUp = () => {
           className="rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900"
         />
       </View>
-      <View className="mb-4 w-full">
-        <TextInput
-          placeholder="confirmpassword"
-          value={password}
-          onChangeText={setPassword}
-          secureTextEntry
-          autoCapitalize="none"
-          className="rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900"
-        />
-      </View>
 
       <TouchableOpacity
         onPress={handleSignup}
